@@ -1,5 +1,5 @@
 <template>
-    <div>音乐test</div>
+    <div>音乐</div>
 </template>
 
 <script>
