@@ -81,6 +81,8 @@
         height: 1rem;
         color: black;
         position: fixed;
+        /*调整层级 解决book覆盖问题*/
+        z-index: 9999;
         width: 100%;
     }
     header{
