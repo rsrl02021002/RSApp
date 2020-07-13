@@ -11,6 +11,11 @@ const routes = [
         component: TvPlay
     },
     {
+        path: '/tvdetail/:id',
+        name: 'TvDetail',
+        component: ()=>import('../views/tvplay/TvPlayDetail')
+    },
+    {
         path: '/music',
         name: 'Music',
         component: () => import('../views/music/Music')
