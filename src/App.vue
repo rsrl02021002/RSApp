@@ -27,4 +27,9 @@
   body{
     padding: 1rem 0;
   }
+  .clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+  }
 </style>
